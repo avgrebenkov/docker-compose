@@ -25,7 +25,7 @@ services:
       - DOCKER_IN_DOCKER=start
     privileged: true
     volumes:
-#      - ./buildagent:/opt/buildagent
+#      - ./buildagent:/opt/buildagent  
 #      - ./docker.sock:/var/run/docker.sock
       - /var/run/docker.sock:/var/run/docker.sock
       - /ext/teamcity/agent-data/kubeconfig:/home/primelabsx/.kube
