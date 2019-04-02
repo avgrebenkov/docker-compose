@@ -1,0 +1,5 @@
+#bash
+
+cd api-nginx
+git pull
+./reload

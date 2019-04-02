@@ -1,0 +1,7 @@
+#slot-b
+upstream web-terminal {
+    server 127.0.0.3:710;
+}
+upstream web-terminal-staging {
+    server 127.0.0.2:710;
+}
